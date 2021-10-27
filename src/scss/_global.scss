@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $red;
+    border-radius: 5rem;
+  }
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.container {
+  max-width: 1900px;
+  padding: 0 10px;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: $black;
+  padding-bottom: 2rem;
+  text-align: center;
+  span {
+    color: $red;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+  background: $red;
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    background: $black;
+  }
+}

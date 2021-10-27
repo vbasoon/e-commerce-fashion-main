@@ -1,0 +1,47 @@
+.footer {
+  padding: 2rem 9%;
+  background-color: #333;
+  &__box-container {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  &__box {
+    h3 {
+      font-size: 2.5rem;
+      padding: 1rem 0;
+      color: #fff;
+    }
+    a {
+      display: block;
+      font-size: 2rem;
+      padding: 1rem 0;
+      color: #eee;
+      &:hover {
+        i {
+          padding-right: 0.5rem;
+          color: #ddd6ce;
+          transition: all 0.5s;
+        }
+      }
+      i {
+        padding-right: 1.5rem;
+        color: #e4e1e4;
+        transition: all 0.5s;
+      }
+    }
+  }
+  &__credit {
+    text-align: center;
+    color: #fff;
+    border-top: 0.1rem solid #222;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    span {
+      color: $red;
+    }
+  }
+}

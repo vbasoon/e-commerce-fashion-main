@@ -1,0 +1,28 @@
+.search-form {
+  position: absolute;
+  top: 115%;
+  right: -105%;
+  width: 50rem;
+  height: 5.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: $box-shadow;
+  border: $border;
+
+  input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    text-transform: none;
+    color: $black;
+  }
+
+  label {
+    font-size: 2.5rem;
+    @extend %text-stroke;
+    margin-right: 2rem;
+  }
+}

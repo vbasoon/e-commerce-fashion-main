@@ -1,0 +1,27 @@
+.swiper-button-prev,
+.swiper-button-next {
+  top: 87%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: $box-shadow;
+  border: $border;
+  color: $black;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+  }
+  &::hover {
+    font-size: 2rem;
+  }
+}
+.swiper-button-prev {
+  right: 8rem;
+  left: auto;
+}
+
+.swiper-button-next {
+  right: 2rem;
+}
